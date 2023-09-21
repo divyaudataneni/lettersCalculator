@@ -1,0 +1,51 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-cont {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #e4e7eb;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.input {
+  background-color: transparent;
+
+  border: 1px white solid;
+  color: #e4e7eb;
+  padding: 10px;
+  font-weight: 500;
+}
+.letters {
+  background-color: white;
+  color: #219a6f;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+.letterCount {
+  font-size: 15px;
+  padding-left: 10px;
+}
+.image {
+  height: 400px;
+}
